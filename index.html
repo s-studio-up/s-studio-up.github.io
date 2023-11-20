@@ -11,17 +11,35 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background-color: rgb(17, 13, 13); /* I m the white rabbit -_- */
+      background-color: rgb(17, 13, 13); 
     }
     .whoyou {
       font-size: 3em;
       color: white;
-      font-family: 'Monaco', monospace; /* now you can see me*/
-      }
+      font-family: 'Monaco', monospace;
+      cursor: pointer;
+    }
+    #emoji {
+      display: none; 
+      font-size: 5em;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   </style>
 </head>
 <body>
-  <div class="whoyou">Follow the white rabbit.</div> 
+  <div class="whoyou" onclick="showEmoji(this)">Follow the white rabbit.</div>
+  <div id="emoji">:)</div>
 
+  <script>
+    function showEmoji(element) {
+      element.style.display = 'none'; 
+      var emoji = document.getElementById('emoji');
+      emoji.style.display = 'block'; 
+    }
+  </script>
 </body>
 </html>

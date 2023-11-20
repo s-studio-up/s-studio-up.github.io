@@ -31,14 +31,13 @@
   </style>
 </head>
 <body>
-  <div class="whoyou" onclick="showEmoji(this)">Follow the white rabbit.</div>
+  <div class="whoyou" onclick="openVideo(this)">Follow the white rabbit.</div>
   <div id="emoji">:)</div>
 
   <script>
-    function showEmoji(element) {
+    function openVideo(element) {
       element.style.display = 'none'; 
-      var emoji = document.getElementById('emoji');
-      emoji.style.display = 'block'; 
+      window.open('https://www.youtube.com/watch?v=6uMNnZtIS6s'); 
     }
   </script>
 </body>

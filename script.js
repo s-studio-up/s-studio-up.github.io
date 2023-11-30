@@ -3,10 +3,10 @@ const cursor = document.querySelector('.cursor');
 
 const texts = [
     "Merhaba!",
-  "Aslında nereden başlayacağımı bilmiyorum",
-  "Beni hatırlıyor musun ?",
+  "Aslında nereden başlayacağımı bilmiyorum.",
+  "Bizi hatırlıyor musun ?",
   "2 yıl önce bir kaza geçirdin.",
-  "Kim olduğunu, ne yaptığını kısacası seni sen yapan herşeyi unuttun",
+  "Kim olduğunu, ne yaptığını kısacası seni sen yapan herşeyi unuttun.",
   "Yeniden uyandığında...",
   "...",
   "...farklı biriydin.",
